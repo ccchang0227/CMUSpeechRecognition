@@ -1,0 +1,1 @@
+include ':app', ':model', ':pocketsphinx-library', ':model2', ':common', ':app2'
