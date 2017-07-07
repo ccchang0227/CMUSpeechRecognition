@@ -160,7 +160,7 @@ public abstract class BaseActivity extends Activity implements RecognitionListen
         if (hypothesis == null) {
             return;
         }
-        hypothesis.delete();
+
         String text = hypothesis.getHypstr();
         tv_message.append("Recognized(onPartialResult): " + text + "\n");
 
